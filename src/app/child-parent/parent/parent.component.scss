@@ -1,0 +1,51 @@
+.main-div {
+    display: flex;
+    column-gap: 60px;
+
+    .parent-div {
+        flex: 1 1 50%;
+
+        .form {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+            gap: 15px;
+
+        }
+    }
+
+    h2 {
+        margin-block: unset;
+    }
+
+    .child-div {
+        flex: 1 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        gap: 15px;
+    }
+
+    .message {
+        background-color: green;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        padding: 2px;
+    }
+}

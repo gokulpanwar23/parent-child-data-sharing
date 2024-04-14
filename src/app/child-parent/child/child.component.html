@@ -1,0 +1,7 @@
+<div>Data received from parent : Name - <span [ngStyle]="{'font-weight': 'bold'}">{{ userData?.name }}</span>
+    <br> Age - <span [ngStyle]="{'font-weight': 'bold'}">{{ userData?.age }}</span>
+
+    <div [ngStyle]="{'margin-top': '10px'}">
+        <button (click)="sendConfirmation()">Confirm</button>
+    </div>
+</div>
